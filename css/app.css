@@ -48,7 +48,46 @@ table {
 
 /*
   ========================================
-  header
+  HEADER
+  ========================================
+*/
+
+.header {
+    background-image: url(../images/churchheader.jpg);
+    background-size: cover;
+    height: inherit;
+    padding: 20px 20px;
+}
+
+.logo {
+    float: left;
+    font-size: 60px;
+    
+}
+
+.navigation {
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 15px 
+    
+}
+
+.navigation a {
+    color: #000;
+}
+
+.navigation a:hover {
+    color: #a9a9a9;
+}
+
+/*
+  ========================================
+  BODY
   ========================================
 */
 
