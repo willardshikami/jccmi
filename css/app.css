@@ -65,7 +65,9 @@ table {
     float: left;
     font-size: 60px;
     padding: 10px;  
+    letter-spacing: 5px;
 }
+
 
 .nav-bar {
     
@@ -198,3 +200,33 @@ nav ul li {
 body {
     font-family: 'Varela Round';
 } 
+
+/*
+  ========================================
+  GRID OF TWO
+  ========================================
+*/
+
+
+.area_2_of_2 {
+	width: 100%;
+}
+
+.area_1_of_2 {
+	width: 49.2%;
+}
+
+/*
+  ========================================
+  GO FULL WIDTH AT LESS THAN 480 PIXELS
+  ========================================
+*/
+
+@media only screen and (max-width: 480px) {
+	.area_2_of_2 {
+		width: 100%; 
+	}
+	.area_1_of_2 {
+		width: 100%; 
+	}
+}
