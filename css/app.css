@@ -203,7 +203,7 @@ body {
 
 /*
   ========================================
-  GRID OF TWO
+  GRID OF TWO IN THE ABOUT SECTION
   ========================================
 */
 
@@ -285,3 +285,148 @@ body {
 	}
 }
 
+
+/*
+  ========================================
+  INSIDE ABOUT SECTION
+  ========================================
+*/
+
+#about {
+    background: #f2f2f2;
+}
+
+.about-col1 {
+    height: 350px
+}
+
+
+.about-col1 h1 {
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;    
+    padding-top: 100px;
+    text-align: center;
+}
+
+.about-col2 {
+    height: 350px;
+}
+
+.about-col2 p{
+    font-size: 20px;
+    padding: 50px 100px 0 20px;
+    text-align: left;
+}
+
+.about-col2 h4 {
+    font-size: 20px;
+    padding: 20px 0 0 20px;
+}
+
+/*
+  ========================================
+  EVENTS SECTION
+  ========================================
+*/
+
+.events-section {
+    background-image: url(../images/eventsbg.jpg);
+    background-size: cover;
+    height: inherit;
+}
+
+
+/*
+  ========================================
+  GRID OF TWO
+  ========================================
+*/
+
+
+.area_2_of_2 {
+	width: 100%;
+}
+
+.area_1_of_2 {
+	width: 49.2%;
+}
+
+
+.events-col1 {
+    background: #551A8B;
+    height: 100px;
+}
+
+.events-col2 {
+    background: #551A8B;
+    height: 100px;
+}
+/*
+  ========================================
+  GO FULL WIDTH AT LESS THAN 480 PIXELS
+  ========================================
+*/
+
+@media only screen and (max-width: 480px) {
+	.area_2_of_2 {
+		width: 100%; 
+	}
+	.area_1_of_2 {
+		width: 100%; 
+	}
+}
+
+/*
+  ========================================
+    SECTIONS
+  ========================================
+*/
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*
+  ========================================
+  GROUPS
+  ========================================
+*/
+
+
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*
+  ========================================
+  GRID COLUMN SETUP
+  ========================================
+*/
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
