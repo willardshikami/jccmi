@@ -93,6 +93,28 @@ nav ul li {
     color: #a9a9a9;
 }
 
+
+/*
+  ========================================
+  MID HEADER SECTION
+  ========================================
+*/
+.mid-header {
+    color: #fff;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.mid-header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+}
+
+.mid-header h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
 /*
   ========================================
   BODY
