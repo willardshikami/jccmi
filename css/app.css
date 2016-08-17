@@ -326,11 +326,28 @@ body {
 
 /*
   ========================================
-  EVENTS SECTION
+ SERMONS SECTION
   ========================================
 */
+.our h1 {
+    color: #fff;
+    padding-top: 20px;
+    font-size: 50px;
+    font-family: 'Montserrat';
+    text-align: center;
+    
+}
 
-.events-section {
+.line {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #551A8B;
+}
+
+
+
+.sermons-section {
     background-image: url(../images/eventsbg.jpg);
     background-size: cover;
     height: inherit;
@@ -348,19 +365,29 @@ body {
 	width: 100%;
 }
 
-.area_1_of_2 {
-	width: 49.2%;
+
+
+.sermons-col1 {
+    color: #fff;
+    height: 100px;
+    width: 39.2%;
+    padding: 30px;
+    line-height: 40px
 }
 
-
-.events-col1 {
-    background: #551A8B;
-    height: 100px;
+.sermons-col1 h4 {
+    font-size: 30px;
+    font-weight: 700;
 }
 
-.events-col2 {
-    background: #551A8B;
-    height: 100px;
+.sermons-col1 p {
+    font-size: 20px
+}
+
+.sermons-col2 {
+    background: #333;
+    height: 300px;
+    width: 59.2%
 }
 /*
   ========================================
