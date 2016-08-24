@@ -461,29 +461,29 @@ body {
 
 /*
   ========================================
-  SERMONS
+  PASTORS SECTION
   ========================================
 */
 
-.sermons {
+.pastors {
     padding-top: 20px;
     line-height: normal;
 }
 
-.sermons h1 {
+.pastors h1 {
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 50px;
     text-align: center;
 }
 
-.sermons h4 {
+.pastors h4 {
     font-size: 25px;
     text-align: center;
     
 }
 
-.sermons p {
+.pastors p {
     font-size: 20px;
     line-height: 30px;
     padding: 0 50px; 
