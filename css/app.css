@@ -493,50 +493,7 @@ body {
 
 /*
   ========================================
-  SUBSCRIBE
- 
-form {
-
-}
-
-
-.subscribe {
-    background: #ff6666;
-    height: 200px;
-}
-
-.subscribe h1 {
-    padding-top: 50px;
-    padding-bottom: 10px;
-    font-size: 50px;
-    font-family: 'Montserrat';
-    font-weight: 500;
-    text-align: center;
-}
-
-input {
-    font: 300 16px/22px 'Valera Round';
-    display: inline-block;
-}
-
-fieldset {
-    
-}
-
-.email-space {
-
-}
-
-.subscribe-email {
-    width: 40%;
-}
- ========================================
-*/
-
-
-/*
-  ========================================
-  SUBSCRIBE BUTTON
+  SUBSCRIBE 
   ========================================
 */
 
@@ -561,7 +518,6 @@ fieldset {
     width:400px;
   
 }
-
 
 input[type="email"] {
     appearance: non;
@@ -613,4 +569,19 @@ input[type="submit"]:hover {
   color: #464c4c;
   cursor:pointer;
   transition: color 0.5s ease;
+}
+
+
+/*
+  ========================================
+  FOOTER SECTION 
+  ========================================
+*/
+
+.footer {
+    background: #333;
+    color: #fff;
+    height: 50px;
+    text-align: center;
+    
 }
