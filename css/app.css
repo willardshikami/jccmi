@@ -581,7 +581,9 @@ input[type="submit"]:hover {
 .footer {
     background: #333;
     color: #fff;
-    height: 50px;
+    height: 100px;
     text-align: center;
-    
+    padding-top: 50px;
 }
+
+
